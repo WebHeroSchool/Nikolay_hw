@@ -1,0 +1,62 @@
+.burger-menu__button {
+    display: none;
+
+    width: 50px;
+    height: 50px;
+
+    background-image: url("img/burger.jpg");
+    background-size: contain;
+
+    border: none;
+}
+
+@media (min-width: 320px) {
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-navigation {
+        display: none;
+    }
+
+    .burger-menu__button {
+        display: block;
+    }
+
+    .burger-menu__button:hover + .main-navigation {
+        display: block;
+
+    }
+}
+
+@media (min-width: 481px) {
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 641px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 961px) {
+    p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1025px) {
+    p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1281px) {
+    p {
+        font-size: 35px;
+    }
+}
